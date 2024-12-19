@@ -1,71 +1,70 @@
-# Getting Started with Create React App
+# Instagram Home Page Clone - TechBridge IDEAS Capstone Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+Welcome to the **tb-capstone-ig** repository! This project is the capstone for TechBridge IDEAS, where we collaboratively recreate the Instagram homepage. The goal is to demonstrate our skills in web development, teamwork, and problem-solving while delivering a functional and visually appealing web application.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
+- Responsive design to ensure compatibility across various devices.
+- Accurate recreation of the Instagram homepage layout.
+- Interactive components for user engagement.
+- Modern web development practices.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Team Members
+Below are the talented individuals contributing to this project:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Name                | GitHub Username       | TechBridge ID |
+|---------------------|-----------------------|---------------|
+| Aduragbemi 070      | [Salemori](https://github.com/Salemori) | 070           |
+| Alli Toheeb         | [Superpen-Dev](https://github.com/Superpen-Dev) | 115           |
+| AbdulMuiz Jimoh     | [Muayyad822](https://github.com/Muayyad822) | 057           |
+| Kehinde Imani       | [AskKenImani](https://github.com/AskKenImani) | 055           |
+| Agboola Toheeb      | [toyib001](https://github.com/toyib001) | 118           |
+| Raheem Moshood      | [MoshoodARr](https://github.com/MoshoodARr) | 096           |
+| Taiwo Agbaje        | [Gbjayexperty](https://github.com/Gbjayexperty) | 120           |
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
+- **HTML5**: For the structure of the webpage.
+- **CSS3**: For styling and layout.
+- **JavaScript**: For interactivity and dynamic content.
+- **React**: For building dynamic and interactive user interfaces in web applications.
+- **Git**: For version control and collaboration.
+- **GitHub**: For repository hosting and team collaboration.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to Contribute
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/tb-capstone-ig.git
+   ```
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your commit message here"
+   ```
+4. Push your branch to GitHub:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a Pull Request and request a review from the team.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Status
+This project is currently in development. Updates will be shared as milestones are achieved.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contact
+For questions or suggestions, feel free to reach out to any team member through their GitHub profiles linked above.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# tb-capstone-ig
+---
