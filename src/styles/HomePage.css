@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #dbdbdb;
+}
+
+.nav-container{
+    width: 1442.32px;
+    height: 64.55px;
+    background-color: #fafafa;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 3fr 4fr 5fr;
+    margin-top: 25px;
+    column-gap: 35px;
+}
+
+.main-left{  
+    /* max-width: 650px; */
+    background-color: aquamarine;
+}
+
+/* .post-story-container{
+    flex: 2; 
+    max-width: 650px;
+    background-color:antiquewhite;
+} */
