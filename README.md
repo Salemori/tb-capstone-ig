@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# tb-capstone-ig
+
+This is the capstone project to create IG homepage #Below is the member of the team working on the project
+
+Aduragbemi 070 (GitHub Username: Salemori)
+Alli Toheeb 115 (GitHub Username: Superpen-Dev)
+AbdulMuiz Jimoh 057 (Github username: Muayyad822)
+Kehinde Imani 055 (GitHub username: AskKenImani)
+Agboola Toheeb 118 (GitHub username : toyib001)
+Raheem Moshood 096 (GitHub username : MoshodARr)
+Taiwo Agbaje 120 (GitHub username: Gbjayexperty)
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,4 +81,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# tb-capstone-ig
+
+ -->
