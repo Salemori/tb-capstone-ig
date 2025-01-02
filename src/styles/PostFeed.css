@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-  padding: 25px;
+  /* padding: 25px; */
   margin: 0;
   font-family: 'roboto';
   -webkit-font-smoothing: antialiased;
@@ -14,20 +14,21 @@ code {
 }
 
 .body-container{
-  position: relative;
-  height: 100vh;
-  margin: 20px;
+  /* position: relative; */
+  /* height: 100vh; */
+  /* margin: 20px; */
 }
 .post-container{
-  width: 470px;
+  width: 490px;
+  /* width: 470px; */
   border: 1px solid gray;
   border-radius: 10px;
   padding-top: 0px;
   padding: 0px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
  
 }
 main{

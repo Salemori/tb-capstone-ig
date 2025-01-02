@@ -5,6 +5,7 @@ import commentIcon from '../assets/commentIcon.png'
 import shareIcon from '../assets/shareIcon.png'
 import bookmarkIcon from '../assets/bookmarkIcon.png'
 import emoji from '../assets/emoji.png'
+import '../styles/PostFeed.css'
 
 const Post = ({username, profileImage, postImage, likes, caption, comment}) => {
   return (
