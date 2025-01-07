@@ -1,10 +1,12 @@
+import React from 'react';
+import ReelsFeed from './components/ReelsFeed'
 import './App.css';
-import HomePage from './components/HomePage';
 
 function App() {
   return (
     <div className="App">
-      <HomePage/>
+      <h1>Instagram Reels</h1>
+      <ReelsFeed />
     </div>
   );
 }

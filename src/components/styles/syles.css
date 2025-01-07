@@ -1,0 +1,98 @@
+
+.reels-feed {
+    display: flex;
+    flex-direction: row; 
+    overflow-x: auto;
+    overflow-y: hidden; 
+    padding: 20px 0;
+    gap: 25px; 
+    justify-content: flex-start;
+  }
+
+  .reels-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  
+  .reel {
+    position: relative;
+    width: 100px; 
+    height: 150px; 
+    margin-bottom: 50px;
+    border-radius: 55%; 
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .reel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+  }
+  
+  .play-button {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    width: 40px; 
+    height: 40px; 
+    margin-bottom: 40px; 
+  }
+  
+  .username {
+    color: red;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  
+  .caption p {
+    color: black;
+    font-size: 0.9em;
+    margin-top: 1px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-top: 1px;
+  }
+  
+  .icons div {
+    cursor: pointer;
+    color: black;
+    font-size: 1.5em;
+  }
+  
+  .icons .like {
+    display: flex;
+    align-items: center;
+  }
+  
