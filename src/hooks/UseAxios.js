@@ -20,13 +20,13 @@ const UseAxios = ({ method, url, headers, data = null} ) => {
         data,
       });
       // console.log(result.data.fact);
-      console.log(result);
+      console.log(result.data);
       // setResponse(result.data.fact);
-      // setResponse(result.data);
+      setResponse(result.data);
     }
     catch (error) {
       console.log(error.message)
-      // setError(error);
+      setError(error);
     }
     finally {
       setLoading(false);

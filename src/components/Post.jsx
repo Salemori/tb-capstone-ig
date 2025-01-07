@@ -7,7 +7,7 @@ import bookmarkIcon from '../assets/bookmarkIcon.png'
 import emoji from '../assets/emoji.png'
 import '../styles/PostFeed.css'
 
-const Post = ({username, profileImage, postImage, likes, caption, comment}) => {
+const Post = ({username, profileImage, postImage, likes, caption, comment, duration}) => {
   return (
     <div className='body-container'>
         <div className="post-container">
@@ -32,7 +32,7 @@ const Post = ({username, profileImage, postImage, likes, caption, comment}) => {
             <p>Liked by <b>you</b> and {likes} <b>others</b></p>
             <p className='caption'>{caption}<span>...more</span></p>
             <p className='viewComments'>View all {comment} comments </p>
-            <p className='time'>HOUR AGO</p>
+            <p className='time'>{duration} days ago</p>
             
           </main>
           <footer>
