@@ -1,15 +1,12 @@
-// import Post from './components/Post';
-// import './styles/PostFeed.css'
-// import ProfilePicture from './assets/ProfilePicture.png'
-// import postImage from './assets/postImage.png'
+import React from 'react';
+import ReelsFeed from './components/ReelsFeed'
 import './App.css';
-import HomePage from './components/HomePage';
-// import SideBar from '../src/components/SideBar';
 
 function App() {
   return (
     <div className="App">
-      <HomePage/>
+      <h1>Instagram Reels</h1>
+      <ReelsFeed />
     </div>
   );
 }
