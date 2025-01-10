@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { useState, useEffect, useCallback } from 'react'
 
-const UseAxios = ({ method, url, headers, data = null} ) => {
+const UseAxios = ({ method, url, params = {}, headers, data = null} ) => {
 
   const [response, setResponse] = useState(null)
   const [error, setError] = useState(null)
@@ -16,6 +16,7 @@ const UseAxios = ({ method, url, headers, data = null} ) => {
       const result = await axios({
         method,
         url,
+        params,
         headers,
         data,
       });
@@ -31,7 +32,7 @@ const UseAxios = ({ method, url, headers, data = null} ) => {
     finally {
       setLoading(false);
     }
-  }, [method, url, headers, data]);
+  }, [method, url, params, headers, data]);
 
   useEffect(() => {
     fetchData();
@@ -39,7 +40,7 @@ const UseAxios = ({ method, url, headers, data = null} ) => {
   }, []);
 
 
-  return { response, loading, error, fetchData };
+  return [response, loading, error, fetchData];
 }
 
 export default UseAxios

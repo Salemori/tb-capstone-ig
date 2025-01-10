@@ -4,12 +4,19 @@
 // import postImage from './assets/postImage.png'
 import './App.css';
 import HomePage from './components/HomePage';
+import Navbar from './components/navbar/Navbar';
+
 // import SideBar from '../src/components/SideBar';
 
 function App() {
+
+
   return (
     <div className="App">
-      <HomePage/>
+      <Navbar>
+      <HomePage />
+      </Navbar>
+     
     </div>
   );
 }
