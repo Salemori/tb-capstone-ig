@@ -1,5 +1,5 @@
 import React from 'react';
-import ReelsFeed from './components/ReelsFeed'
+import ReelsFeed from './components/components/ReelsFeed'
 import './App.css';
 
 function App() {
