@@ -164,3 +164,7 @@
       border: 2px solid red;
     }
   }
+
+  .navbar-container,.logo img, .logo, .nav-buttons, .nav-buttons img {
+    background-color: white;
+  }
